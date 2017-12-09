@@ -10,6 +10,6 @@
       
     },
     "scripts": {
-        "start": "03-BasicAuth.js"
+        "start": "node 03-BasicAuth.js"
     }
 }
