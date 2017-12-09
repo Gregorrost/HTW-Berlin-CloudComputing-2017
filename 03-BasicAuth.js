@@ -2,13 +2,13 @@ var http = require('http');
 var url = require('url');
 var crypto = require("crypto");
 var port = process.env.PORT || 8081;
-var auth = require('basic-auth');
+
 
 http.createServer(function (request, response) {
    // Send the HTTP header 
    // HTTP Status: 200 : OK
    // Content Type: text/plain
-   var credentials = auth(request);
+ 
    
    response.writeHead(200, {'Content-Type': 'text/plain'});
 
