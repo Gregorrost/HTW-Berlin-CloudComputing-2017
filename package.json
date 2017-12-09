@@ -7,6 +7,7 @@
     "author": "Rico Herlt",
     "engines": {
         "node": ">=6.9.1"
+      
     },
     "scripts": {
         "start": "03-BasicAuth.js"
